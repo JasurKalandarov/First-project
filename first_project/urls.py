@@ -21,5 +21,4 @@ from news import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('news/', include('news.urls')),
-    path('live/', include('live.urls')),
 ]
